@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_background"
+    tools:context=".MainActivity14" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout28"
+        android:layout_width="411dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/my_primary2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/my_primary2"
+            android:foreground="@drawable/back"
+            android:tint="@color/my_primary2"
+            app:srcCompat="@drawable/back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout29"
+        android:layout_width="407dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/my_primary2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="107dp"
+        android:text="@string/heading_favourites"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout28" />
+
+    <ImageButton
+        android:id="@+id/btn_fav1"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="54dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/nonveg5" />
+
+    <TextView
+        android:id="@+id/txt_fav1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="114dp"
+        android:text="@string/txt_fav1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btn_fav1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/btn_fav2"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="31dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fav1"
+        app:srcCompat="@drawable/dessert1" />
+
+    <ImageButton
+        android:id="@+id/btn_fav3"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fav2"
+        app:srcCompat="@drawable/drink5" />
+
+    <TextView
+        android:id="@+id/txt_fav2"
+        android:layout_width="127dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="122dp"
+        android:text="@string/txt_fav2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btn_fav2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fav1" />
+
+    <TextView
+        android:id="@+id/txt_fav3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="135dp"
+        android:text="@string/txt_fav3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btn_fav3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fav2" />
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="177dp"
+        android:backgroundTint="@color/my_background"
+        app:layout_constraintStart_toEndOf="@+id/txt_fav1"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout28"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/btn_delete2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/my_background"
+        app:layout_constraintStart_toEndOf="@+id/txt_fav3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_delete3"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/btn_delete3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="106dp"
+        android:backgroundTint="@color/my_background"
+        app:layout_constraintStart_toEndOf="@+id/txt_fav2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_delete"
+        app:srcCompat="@drawable/delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Yummy Bites</string>
+
+    <string name="welcome">Welcome to Yummy Bites!</string>
+    <string name="hnt_userName">Username</string>
+    <string name="hnt_password">Password</string>
+    <string name="hnt_email">E-mail</string>
+    <string name="hnt_rePassword">Re-enter Password</string>
+    <string name="my_name">Ruwanya Hettiarachchi</string>
+    <string name="my_mail">ruwanya@gmail.com</string>
+    <string name="success_msg">SUCCESSFUL!</string>
+    <string name="heading_favourites">FAVOURITES</string>
+    <string name="heading_myRecipes">MY RECIPES</string>
+    <string name="txt_fav1">Baked Chicken</string>
+    <string name="txt_fav2">Strawberry Short Cake</string>
+    <string name="txt_fav3">Capuccino</string>
+
+    <string name="txt_spaghettiRecipe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+
+    <string name="btn_start">Get Started</string>
+    <string name="btn_viewRecipes">View My Recipes</string>
+    <string name="btn_addFav">Add to Favourites</string>
+    <string name="btn_addNewRecipe">Add New Recipe</string>
+    <string name="btn_favourites">Favourites</string>
+</resources>
